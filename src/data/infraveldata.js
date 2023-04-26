@@ -10,7 +10,7 @@ import brand4 from "../images/brand4.png";
 import brand5 from "../images/brand5.png";
 
 import place1 from "../images/goa.webp";
-import place2 from "../images/Maclodganj.jpg";
+import place2 from "../images/maclodganj.jpg";
 import place3 from "../images/srinagar.jpg";
 import place4 from "../images/andaman.jpg";
 import place5 from "../images/leh-ladakh.jpeg";
