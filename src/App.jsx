@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Hero, Footer, Memory, Explore, Advertise, Pricing, Banner, Newslatter } from './componenets';
 import { hero, navlinks, memory, placesAPI, brands, pricingapi, bannerAPI, footerAPI } from './data/infraveldata';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -9,11 +10,11 @@ const App = () => {
       <Hero hero={hero} />
       <Memory memory={memory} />
       <Explore title="Explore The Beauty of India" placesAPI={placesAPI} />
-      <Advertise brands={brands} />
       <Pricing pricingapi={pricingapi} />
+      <Footer footerAPI={footerAPI} />
+      <Advertise brands={brands} />
       <Banner bannerAPI={bannerAPI} />
       <Newslatter />
-      <Footer footerAPI={footerAPI} />
     </>
   );
 };
