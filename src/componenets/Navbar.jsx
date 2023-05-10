@@ -36,11 +36,11 @@ const Navbar = ({ navlinks }) => {
                     </NavLink>
                     <ul className='flex items-center lg:hidden gap-7'>
                         {/* {navlinks?.map((val, i) => (<li key={i}><NavLink to={'#'} className="text-lg text-slate-900">{val.link}</NavLink></li>))} */}
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/about">About</NavLink></li>
-                        <li><NavLink to="/explore">Explore</NavLink></li>
-                        <li><NavLink to="/pricing">Pricing</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
+                        <li className='li'><NavLink to="/">Home</NavLink></li>
+                        <li className='li'><NavLink to="/about">About</NavLink></li>
+                        <li className='li'><NavLink to="/explore">Explore</NavLink></li>
+                        <li className='li'><NavLink to="/pricing">Pricing</NavLink></li>
+                        <li className='li'><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                     <ul className='flex items-center lg:hidden'>
                         <li><button type='button' className='button-emrald px-7 text-base'>Join Us</button></li>

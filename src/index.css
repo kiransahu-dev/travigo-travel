@@ -62,4 +62,12 @@
   .nav-sticky{
     @apply bg-white/80 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 flex items-center h-[9vh] fixed top-0 left-0 right-0 opacity-100 z-[100] shadow-sm shadow-slate-100;
   }
+
+  /* Navbar */
+  .li{
+    font-weight: bold; 
+  }
+  .li:hover {
+    @apply bg-gradient-to-b from-emerald-500 to-green-500  transition-all duration-200 cursor-pointer rounded-full active:scale-110 shadow-lg
+  }
 }
