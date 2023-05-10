@@ -19,6 +19,8 @@ import place7 from "../images/coorg.jpg";
 import place8 from "../images/kerla.jpg";
 import place9 from "../images/kanatal.jpg";
 import place10 from "../images/shimla.jpg";
+import place11 from "../images/manali.jpeg";
+import place12 from "../images/meghalay.webp";
 
 import standardicon from "../images/standardicon.png";
 import preminumicon from "../images/preminum.png";
@@ -80,6 +82,8 @@ export const placesAPI = [
     { "placeImg": place8, "location": "Kerala", "distance": "5.1 hour drive" },
     { "placeImg": place9, "location": "Kanatal", "distance": "5.1 hour drive" },
     { "placeImg": place10, "location": "Shimla", "distance": "5.1 hour drive" },
+    { "placeImg": place11, "location": "Manali", "distance": "9.0 hour drive" },
+    { "placeImg": place12, "location": "Meghalay", "distance": "11.0 hour drive" },
 ];
 
 export const pricingapi = {
