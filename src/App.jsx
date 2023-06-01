@@ -11,10 +11,10 @@ const App = () => {
       <Memory memory={memory} />
       <Explore title="Explore The Beauty of India" placesAPI={placesAPI} />
       <Pricing pricingapi={pricingapi} />
-      <Footer footerAPI={footerAPI} />
       <Advertise brands={brands} />
       <Banner bannerAPI={bannerAPI} />
       <Newslatter />
+      <Footer footerAPI={footerAPI} />
     </>
   );
 };
